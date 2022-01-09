@@ -1,0 +1,17 @@
+{
+    "username" : "Username",
+    "password": "Password",
+    "errorText": "Field length must be equal to or greater than 3 and must be equal to or smaller than 11",
+    "incorrectPass": "Your password is Incorrect",
+    "userNotExist": "User does not exist",
+    "recommendedForYou": "Recommended for you",
+    "tryAgain": "Try again",
+    "somethingWentWrong": "Something went wrong please try again.",
+    "nothingHere": "Nothing here please check the app",
+    "eloRating": "Elo Rating",
+    "winningPercentage": "Winning percentage",
+    "tournamentsWon": "Tournaments\n won",
+    "tournamentsPlayed": "Tournaments played",
+    "submit": "Submit",
+    "ok":"OK"
+  }

@@ -1,0 +1,17 @@
+{
+    "username" : "ユーザー名",
+    "password": "パスワード",
+    "errorText": "フィールド長は3以上で、11以下である必要があります。",
+    "incorrectPass": "パスワードが間違っています",
+    "userNotExist": "ユーザーは存在しません",
+    "recommendedForYou": "あなたにおすすめ",
+    "tryAgain": "再試行",
+    "somethingWentWrong": "何かが間違っていました。もう一度やり直してください。",
+    "nothingHere": "ここには何もありませんアプリをチェックしてください",
+    "eloRating": "イロレーティング",
+    "winningPercentage": "勝率",
+    "tournamentsWon": "トーナメント\n勝ち",
+    "tournamentsPlayed": "トーナメントが行われました",
+    "submit": "送信",
+    "ok": "わかった"
+  }
