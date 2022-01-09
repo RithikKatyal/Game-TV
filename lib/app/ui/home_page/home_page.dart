@@ -256,8 +256,10 @@ class _HomePageState extends State<HomePage> {
                             is HomeBlocGetRecommendedDetailErrorState) {
                           return Scaffold(
                               body: Container(
-                            child: Text(Translations.getInstance
-                                .text(Translations.kSomethingWentWrong)!),
+                            child: Center(
+                              child: Text(Translations.getInstance
+                                  .text(Translations.kSomethingWentWrong)!,style: TextStyle(fontSize: 25.toHeight)),
+                            ),
                           ));
                         } else {
                           return SpinKitChasingDots(color: Colors.orangeAccent);
@@ -271,8 +273,10 @@ class _HomePageState extends State<HomePage> {
           } else if (state is HomeBlocGetUserDetailErrorState) {
             return Scaffold(
                 body: Container(
-              child: Text(Translations.getInstance
-                  .text(Translations.kSomethingWentWrong)!),
+              child: Center(
+                child: Text(Translations.getInstance
+                    .text(Translations.kSomethingWentWrong)!,style: TextStyle(fontSize: 25.toHeight),),
+              ),
             ));
           } else {
             return Scaffold(
