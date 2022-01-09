@@ -16,7 +16,7 @@ class SignInPage extends StatefulWidget {
 class _SignInPageState extends State<SignInPage> {
   TextEditingController usernameController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
-   ValueNotifier<bool> isDisabled = ValueNotifier<bool>(false);
+   ValueNotifier<bool> isDisabled = ValueNotifier<bool>(true);
 
    void toggle(bool isValid)
    {

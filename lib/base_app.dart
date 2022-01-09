@@ -66,13 +66,13 @@ class _AppProviders extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return child;
-    return MultiRepositoryProvider(
-      providers: [],
-      child: MultiBlocProvider(
-        providers: [],
-        child: child,
-      ),
-    );
+    // return MultiRepositoryProvider(
+    //   providers: [],
+    //   child: MultiBlocProvider(
+    //     providers: [],
+    //     child: child,
+    //   ),
+    // );
   }
 }
 
